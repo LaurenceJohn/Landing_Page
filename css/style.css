@@ -56,14 +56,14 @@ li{
     width:auto;
 }
 
-button{
-    padding: .5em 3em;
-    border-radius: 10px;
+.button{
+    border:1px solid white;
+    width:125px;
+    padding: .5em;
+    border-radius:.5em;
     margin: 1em 0;
     background-color: #3882F6;
-    color:#F9FAF8;
-    outline:none;
-    font-size: 14px;
+    text-align: center;
 }
 
 .random-info{
@@ -75,6 +75,8 @@ button{
 
 .random-info h1{
     margin:2em;
+    font-size:36px;
+    color:#1F2937;
 }
 
 .info{
@@ -82,6 +84,7 @@ button{
     flex-direction: column;
     align-items: center;
 }
+
 .random-info img{
     width:200px;
     height:auto;
@@ -90,4 +93,47 @@ button{
 .four-pics{
     display:flex;
     gap: 10px;
+}
+
+.info p{
+    text-align: center;
+    width:81%;
+}
+
+.quote{
+    background-color:#E5E7EB;
+    padding: 5em;
+}
+
+.inspo-quote{
+    font-size: 36px;
+    color:#1F2937;
+    font-style: italic;
+    text-align: center;
+}
+
+.thor{
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: bold;
+    text-align: right;
+}
+
+.call{
+    width:40%;
+    margin: 4em auto;
+    background-color: #3882F6;
+    color: white;
+    padding: 1em;
+    border-radius: 1em;
+    display:flex;
+    justify-content: space-around;
+}
+
+footer{
+    background-color: #1F2937;
+    color:#F9FAF8;
+    text-align: center;
+    padding: 2em 0;
+    font-size: 18px;
 }
